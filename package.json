@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbouden93/portfolioMahmoudBouden.git"
+  },
+  "keywords": [
+    "resume",
+    "mahmoud",
+    "bouden"
+  ],
+  "author": "Mahmoud Bouden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbouden93/portfolioMahmoudBouden/issues"
+  },
+  "homepage": "https://github.com/mbouden93/portfolioMahmoudBouden#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.78.0"
+  }
+}
