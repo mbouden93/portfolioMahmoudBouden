@@ -11,6 +11,10 @@ app.listen(app.get('port'), function() {
     console.log('running on port', app.get('port'))
 })
 
+app.use(express.static(__dirname + '/wp-includes'));
+app.use(express.static(__dirname + '/wp-content'));
+app.use(express.static(__dirname + '/wp-admin'));
+
 // Process application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({extended: false}))
 
